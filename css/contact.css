@@ -1,0 +1,89 @@
+/* 
+    Document   : contact
+    Created on : Mar 19, 2014, 2:49:06 AM
+    Author     : damut
+    Description:
+        The contact page of tac projects
+*/
+
+root { 
+    display: block;
+}
+/*page style*/
+body{background: lightyellow; font-family: "verdana","helvetica", sans-serif; font-size: .9em; margin-top: 0px; margin-left: auto; margin-right: auto; margin-bottom: 0px; min-width: 900px}
+div{background: white; font-family: "verdana","helvetica", sans-serif; font-size: .9em; margin-left: auto; margin-right: auto; padding-top: 0px; margin-top: 0px; width: 1000px; min-width: 700px}
+span{font-family: "verdana","helvetica", sans-serif; font-size: .9em; margin-left: auto; margin-right: auto; padding-top: 3px; margin-top: 0px; text-align: center}
+
+/*logo head or banner section*/
+.damut{width: 1000px; height: 150px; background-image: url(../icons/solahead.jpg); margin-left: auto; margin-right: auto; border-radius: 5px; top: 0px; margin-top: 0px}
+
+/*navigation section*/
+.toc{background: palegreen; color: white;  font-family: "verdana","helvetica",sans-serif; font-size: 0.9em; text-align: center; text-decoration: none;
+     margin-right: auto; margin-left: auto; margin-top: 2px; width: 1000px; height: 20px; border-radius: 5px}
+/*links to pages style*/
+a:link.pages{color: white; text-decoration: none; padding-bottom: 5px; padding-right: 10px; padding-left: 10px}
+a:visited.pages{font-weight: normal; color: blue; padding-bottom: 5px; padding-right:10px; padding-left: 10px}
+a:active.pages{background-color: green; text-decoration: none; padding-bottom: 5px; padding-right: 10px; padding-left: 10px}
+a:hover.pages{background-color: green; text-decoration: none; padding: 0px; padding-bottom: 5px; padding-right: 10px; padding-left: 10px}
+	 
+/*date section*/
+.date{color: gray; font-family: "helvetica", "verdana",sans-serif; font-size: 1.0em; text-align: right; margin-top: 0px; margin-left: 730px; margin-right: 0px; 
+     padding-left: 2px; padding-right: 0px; padding-top: 5px; min-width: 140px; max-width: 200px; height: 25px; position: absolute}
+
+/*page content section*/
+.grey{color: lightblue; font-family: "helvetica", "verdana", sans-serif; font-size: 1.8em; text-align: left; margin-top: 10px; margin-left: 2px; margin-right: 2px; padding-left: 20px;
+       padding-right: 20px; text-justify:auto; border-radius: 0px}
+.palegreen{color: grey; font-family: "helvetica", "verdana", sans-serif; font-size: 1.8em; text-align: left; margin-top: 5px; margin-left: 2px; margin-right: 2px; padding-left: 20px;
+           padding-right: 20px; text-justify:auto; border-radius: 0px}
+.lightblue{color: palegreen; font-family: "helvetica", "verdana", sans-serif; font-size: 1.8em; text-align: left; margin-top: 5px; margin-left: 2px; margin-right: 2px; padding-left: 20px;
+           padding-right: 20px; text-justify:auto; border-radius: 0px}
+.oneCont{background-color: palegreen; color: white; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; position: absolute;
+       min-width: 700px; max-width: 900px; height: 420px; margin-top: 0px; margin-left: 45px; margin-right: 0px; padding-left: 10px; padding-right: 10px; border-radius: 5px;
+       border: 0px; border-radius: 5px; border-color: palegreen; border-style: solid; text-justify: auto}
+.watsap{background-color: lightblue; color: white; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; position: absolute;
+       min-width: 700px; max-width: 900px; height: 420px; margin-top: 0px; margin-left: 45px; margin-right: 0px; padding-left: 10px; padding-right: 10px; border-radius: 5px;
+       border: 0px; border-radius: 5px; border-color: palegreen; border-style: solid; text-justify: auto}
+.tips{background-color: grey; color: white; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; position: absolute;
+       min-width: 700px; max-width: 900px; height: 420px; margin-top: 0px; margin-left: 45px; margin-right: 0px; padding-left: 10px; padding-right: 10px; border-radius: 5px;
+       border: 0px; border-radius: 5px; border-color: palegreen; border-style: solid; text-justify: auto}
+p{ color: gray; font-family: "helvetica", "verdana", sans-serif; font-size: 1.0em; margin-right: 5px; text-justify:auto}
+/*links to trending div style*/
+a:link.www{ color: gray; text-decoration: none}
+a:visited.www{text-decoration: none}
+a:active.www{text-decoration: none;}
+a:hover.www{text-decoration: none}
+a:link.ad{ color: palegreen; text-decoration: none; font-size: .7em}
+a:visited.ad{font-weight: normal; font-size: .7em}
+a:active.ad{text-decoration: none; font-size: .7em }
+a:hover.ad{text-decoration: underline; font-size: .7em}
+
+/*image section*/	   
+.twoCont{background: none; color: gray;  font-family: "verdana","helvetica", sans-serif; font-size: .9em; width: 800px; height: 240px; margin-left: 0px;
+         margin-right: 0px; padding-left: 0px; margin-top: 70px; margin-left: 150px; padding-top: 0px; text-justify: auto}
+.image{ padding-left: 2px; padding-right: 2px;}
+
+/*search component section*/
+.searchme{background: none; color: gray; font-size: .9em; padding-bottom: 0px; margin-right: 0px;
+          padding-top: 0px; width: 160px; height: 20px; border: 1px; border-radius: 5px; border-color: palegreen; padding-left: 2px; 
+          padding-right: 2px; border-style: solid; position: absolute}
+.searchDiv{background: none; color: gray; font-size: .9em; padding-bottom: 0px; margin-top: 15px; margin-left: 390px; margin-right: 0px;
+          padding-top: 0px; min-width: 220px; max-width: 300px; height: 20px; border-radius: 5px; padding-left: 0px; 
+          padding-right: 0px; position: absolute}
+.buttons{background-color: palegreen; color: gray; font-family: "helvetica", "verdana",sans-serif; font-size: 1.0em; text-align: left; font-weight: bold;
+         padding-left: 3px; padding-right: 3px; border-radius: 5px; margin-left: 180px; margin-top: 0px; position: absolute}
+
+/*social media section*/
+.social{background: none; color: gray; font-size: .8em; padding-bottom: 0px; margin-left: 400px; margin-right: 0px;
+        padding-top: 0px; min-width: 140px; max-width: 200px; height: 17px; border-radius: 5px; padding-left: 0px; 
+        padding-right: 0px; margin-top: 2px; position: absolute;}
+.ads{font-family: "verdana","helvetica", sans-serif; font-size: .9em; padding-top: 0px; width: 25px; height: 25px;}
+
+/*copyright section*/
+.legal{text-decoration: none; color: white; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; margin-left: 15px; margin-right: 0px;
+        margin-top: 5px; padding-left: 3px; padding-right: 3px; padding-top: 5px}
+.footer{text-decoration: none; color: white; font-family: "verdana","helvetica",sans-serif; font-size: .9em; margin-left: 80px; margin-right: 0px; margin-top: 5px;
+        padding-left: 5px; padding-right: 5px; padding-top: 5px}
+.copyright{text-decoration: none; color: white; font-family: "verdana","helvetica",sans-serif; font-size: 1.0em; margin-left: 320px; margin-right: 0px; margin-top: 2px;
+        padding-left: 5px; padding-right: 5px; padding-top: 10px}
+.copy{background: palegreen; color: white; font-size: .9em; padding-bottom: 0px; margin-top: 430px; padding-top: 0px; width: 1000px; height: 44px;
+      border-bottom-left-radius: 5px; margin-left: auto; margin-right: auto; border-bottom-right-radius: 5px; text-decoration: none;}
